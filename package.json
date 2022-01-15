@@ -4,7 +4,7 @@
   "description": "Primer proyecto Coursera",
   "main": "index.html",
   "scripts": {
-    "dev" : "lite-server",
+    "dev": "lite-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,10 @@
   "homepage": "https://github.com/lukaspode/project-c#readme",
   "devDependencies": {
     "lite-server": "^2.6.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1"
   }
 }
