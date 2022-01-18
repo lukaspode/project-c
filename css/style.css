@@ -4,17 +4,24 @@
     color: white;
 }
 .desc-box{
-    margin: 35px 0 35px 0;
+    margin: 35px 0 25px 0;
+    padding: 10px;
+    border-bottom: solid 1px rgb(41, 41, 41, 0.1);
 }
 .article-card{
     margin: 5px;
+    padding: 10px;
+    border: solid 1px rgb(41, 41, 41, 0.1);
+    border-radius: 3px;
+}
+.btn{
+    float: right;
 }
 footer{
     margin:10px 0 0 0;
-    padding: 5px;
+    padding: 20px 0 10px 0;
     background-color: rgb(41, 41, 41);
     color: white;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
