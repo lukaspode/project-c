@@ -25,6 +25,16 @@
 .btn{
     float: right;
 }
+.page-container {
+    position: relative;
+    min-height: 100vh;
+}
+  
+.content-wrap {
+    padding-bottom: 10rem;    /* Footer height */
+}
+
+
 footer{
     margin:10px 0 0 0;
     padding: 20px 0 10px 0;
@@ -32,4 +42,8 @@ footer{
     color: white;
     bottom: 0;
     width: 100%;
+    position: absolute;
+    height: 10rem;            /* Footer height */
 }
+
+  

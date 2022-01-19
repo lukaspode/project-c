@@ -12,7 +12,10 @@
         <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(49, 49, 49);">
+      <div class="page-container">
+        <div class="content-wrap">
+          <!-- NavBar-->
+          <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: rgb(49, 49, 49);">
             <div class="container-fluid">
               <a class="navbar-brand" href="./index.html">Art-St</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
@@ -36,41 +39,50 @@
               </div>
             </div>
           </nav>
-        <!-- Titulo -->
-        <div class="jumbotron">
-            <h1>Art Store</h1>
+          <!-- Titulo -->
+          <div class="jumbotron">
+              <h1>Art Store</h1>
+          </div>
+          <!-- Breadcrumb-->
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+            </ol>
+          </nav>
+          <!-- Contenido -->
+          <div class="container">
+              <h1>Contactanos</h1>
+              <p>Lorem ipsum dolor sit amet.</p>                
+          </div>
+          <!-- Footer -->
+          <footer>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-sm-4 d-flex flex-column align-items-left">
+                          <address>
+                            <p>Av. Italia 2121</p> 
+                            <p>Montevideo - Uruguay.</p> 
+                          </address>
+                      </div>
+                      <div class="col-sm-4 d-flex flex-column align-items-center">
+                          <a href="https://www.wikipedia.com">Linkedin</a>
+                          <a href="https://www.wikipedia.com">Instagram</a>
+                          <a href="https://www.wikipedia.com">Twitter</a>
+                      </div>
+                      <div class="col-sm-4 d-flex flex-column align-items-end">
+                          <p>About Me</p>
+                          <p>Portfolio</p>
+                          <p>Contacto</p>
+                      </div>
+                  </div>
+              </div>
+          </footer>
         </div>
-        <!-- Contenido -->
-        <div class="container">
-            <h1>Contactanos</h1>
-            <p>Lorem ipsum dolor sit amet.</p>                
-        </div>
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-4 d-flex flex-column align-items-left">
-                        <address>
-                           <p>Av. Italia 2121</p> 
-                           <p>Montevideo - Uruguay.</p> 
-                        </address>
-                    </div>
-                    <div class="col-sm-4 d-flex flex-column align-items-center">
-                        <a href="https://www.wikipedia.com">Linkedin</a>
-                        <a href="https://www.wikipedia.com">Instagram</a>
-                        <a href="https://www.wikipedia.com">Twitter</a>
-                    </div>
-                    <div class="col-sm-4 d-flex flex-column align-items-end">
-                        <p>About Me</p>
-                        <p>Portfolio</p>
-                        <p>Contacto</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        
-        <script src="" async defer></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="node_modules/jquery/dist/jquery.min.js"></script>
-        <script src="node_modules/popper.js/dist/popper.min.js"></script>
+      </div>
+      <script src="" async defer></script>
+      <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="node_modules/jquery/dist/jquery.min.js"></script>
+      <script src="node_modules/popper.js/dist/popper.min.js"></script>
     </body>
 </html>
